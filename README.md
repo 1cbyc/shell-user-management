@@ -51,7 +51,7 @@ sudo ./user_make.sh username "User Full Name"
 
 Example:
 ```bash
-sudo ./user_make.sh john "John Doe"
+sudo ./user_make.sh isaac "Isaac Nsisong"
 ```
 
 ### User Management
@@ -181,19 +181,19 @@ The system supports multiple output formats for different use cases:
 ```
 Username         UID      GID      Home Directory      Shell         Groups           Status
 -------         ---      ---      --------------      -----         ------           ------
-john            1001     1001     /home/john          /bin/bash     john sudo        P
+isaac            1001     1001     /home/isaac          /bin/bash     isaac sudo        P
 ```
 
 ### JSON Format
 ```json
 [
   {
-    "username": "john",
+    "username": "isaac",
     "uid": 1001,
     "gid": 1001,
-    "home_directory": "/home/john",
+    "home_directory": "/home/isaac",
     "shell": "/bin/bash",
-    "groups": "john sudo",
+    "groups": "isaac sudo",
     "account_status": "P"
   }
 ]
@@ -202,7 +202,7 @@ john            1001     1001     /home/john          /bin/bash     john sudo   
 ### CSV Format
 ```csv
 Username,UID,GID,Home Directory,Shell,Groups,Account Status
-john,1001,1001,/home/john,/bin/bash,"john sudo",P
+isaac,1001,1001,/home/isaac,/bin/bash,"isaac sudo",P
 ```
 
 ## Error Handling
