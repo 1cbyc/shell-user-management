@@ -1,0 +1,55 @@
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Shell script specific
+*.sh~
+
+# Test files
+test_*.sh
+*.test
+
+# Documentation build
+docs/_build/
+docs/.doctrees/
+docs/*.md
+
+# Package files
+*.tar.gz
+*.zip
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# User data (if any)
+users/
+data/ 
