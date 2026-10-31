@@ -1,3 +1,5 @@
+> **Licensing update (31 October 2026):** The current policy requires prior written permission for reuse and a separate agreement for AI training. See [LICENSE](LICENSE). Earlier grants remain valid for previously licensed material; [LICENSE.previous](LICENSE.previous) preserves those terms. Any older license descriptions below describe the previous policy. Contact [ei@nsisong.com](mailto:ei@nsisong.com).
+
 # Shell User Management System
 
 Shell-based user management system designed for system administrators to create, manage, and maintain user accounts on Unix/Linux systems with enterprise-grade features.
@@ -355,4 +357,4 @@ For support and questions:
 - **v1.2.0**: Enhanced logging and configuration management
 - **v1.3.0**: Added compliance and security features
 - **v1.4.0**: Performance optimizations and monitoring
-- **v1.5.0**: Enterprise integration and API support 
+- **v1.5.0**: Enterprise integration and API support
